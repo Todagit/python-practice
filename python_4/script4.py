@@ -1,7 +1,10 @@
 class MenuItem:
-    # __init__メソッドを定義してください
     def __init__(self):
-        print('MenuItemクラスのインスタンスが生成されました！')
+        # self.nameに「サンドイッチ」を代入してください
+        self.name = 'サンドイッチ'
+        
+        # self.priceに「500」を代入してください
+        self.price = 500
 
     def info(self):
         return self.name + ': ¥' + str(self.price)
@@ -12,10 +15,9 @@ class MenuItem:
 
 
 menu_item1 = MenuItem()
-menu_item1.name = 'サンドイッチ'
-menu_item1.price = 500
 
 print(menu_item1.info())
 
 result = menu_item1.get_total_price(4)
 print('合計は' + str(result) + '円です')
+
