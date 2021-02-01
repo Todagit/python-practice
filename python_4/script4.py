@@ -1,9 +1,6 @@
 class MenuItem:
     def __init__(self):
-        # self.nameに「サンドイッチ」を代入してください
         self.name = 'サンドイッチ'
-        
-        # self.priceに「500」を代入してください
         self.price = 500
 
     def info(self):
