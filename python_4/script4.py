@@ -1,7 +1,11 @@
 class MenuItem:
-    def __init__(self):
-        self.name = 'サンドイッチ'
-        self.price = 500
+    # 引数「name」と「price」を受け取るようにしてください
+    def __init__(self, name, price):
+        # 「サンドイッチ」の代わりに引数nameの値を代入してください
+        self.name = name
+        
+        # 「500」の代わりに引数priceの値を代入してください
+        self.price = price
 
     def info(self):
         return self.name + ': ¥' + str(self.price)
@@ -11,10 +15,10 @@ class MenuItem:
         return total_price
 
 
-menu_item1 = MenuItem()
+# 引数を「サンドイッチ」と「500」としてください
+menu_item1 = MenuItem('サンドイッチ',500)
 
 print(menu_item1.info())
 
 result = menu_item1.get_total_price(4)
 print('合計は' + str(result) + '円です')
-
