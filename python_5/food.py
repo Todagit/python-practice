@@ -1,6 +1,14 @@
 from menu_item import MenuItem
 
+
 class Food(MenuItem):
+
+    # __init__メソッドを定義してください
+    def __init__(self, name, price, calorie):
+        self.name = name
+        self.price = price
+        self.calorie = calorie
+        
     # infoメソッドを定義してください
     def info(self):
         return self.name + ':¥' + str(self.price) + ' (' + str(self.calorie) + 'kcal)'
