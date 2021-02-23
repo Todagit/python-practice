@@ -1,16 +1,10 @@
-# FoodクラスとDrinkクラスをそれぞれ読み込んでください
 from food import Food
 from drink import Drink
 
-
-# Foodクラスのインスタンスを生成して変数food1に代入してください
 food1 = Food('サンドイッチ', 500)
 
-# food1に対してinfoメソッドを呼び出して戻り値を出力してください
-print(food1.info())
+# food1のcalorieに「330」を代入してください
+food1.calorie = 330
 
-# Drinkクラスのインスタンスを生成して変数drink1に代入してください
-drink1 = Drink('コーヒー', 300)
-
-# drink1に対してinfoメソッドを呼び出して戻り値を出力してください
-print(drink1.info())
+# food1に対してcalorie_infoメソッドを呼び出してください
+food1.calorie_info()
