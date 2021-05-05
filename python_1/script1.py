@@ -86,3 +86,13 @@ apple_price = 200
 # moneyの値がapple_priceの値以上の時、「りんごを買うことができます」と出力してください
 if money >= apple_price:
     print('りんごを買うことができます')
+
+# 条件分岐2
+money = 100
+apple_price = 200
+
+if money >= apple_price:
+    print('りんごを買うことができます')
+# if文の条件に当てはまらない場合に「お金が足りません」と出力してください
+else:
+    print('お金が足りません')
