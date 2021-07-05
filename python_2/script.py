@@ -9,6 +9,7 @@ print(fruits[0])
 # インデックス番号が 2 の要素を文字列と連結して出力してください
 print('好きな果物は' + fruits[2] + 'です')
 
+
 # 2
 
 fruits = ['apple', 'banana', 'orange']
@@ -24,3 +25,12 @@ fruits[0] = 'cherry'
 
 # インデックス番号が 0 の要素を出力してください
 print(fruits[0])
+
+
+# 3
+
+fruits = ['apple', 'banana', 'orange']
+
+# for 文を用いてリストの要素を1つずつ取り出し、「 好きな果物は◯◯です 」と出力してください
+for fruit in fruits:
+    print('好きな果物は' + fruit + 'です')
