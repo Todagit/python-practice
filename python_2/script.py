@@ -34,3 +34,15 @@ fruits = ['apple', 'banana', 'orange']
 # for 文を用いてリストの要素を1つずつ取り出し、「 好きな果物は◯◯です 」と出力してください
 for fruit in fruits:
     print('好きな果物は' + fruit + 'です')
+
+
+# 4
+
+# 変数 fruits に辞書を代入してください
+fruits = { 'apple' : 'りんご', 'banana' : 'バナナ'}
+
+# 辞書 fruits のキー「 banana 」に対応する値を出力してください
+print(fruits['banana'])
+
+# 辞書 fruits を用いて、「 appleは◯◯という意味です 」となるように出力してください
+print('appleは' + fruits['apple'] + 'という意味です')
