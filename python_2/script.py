@@ -69,3 +69,15 @@ fruits = {'apple': 'りんご', 'banana': 'バナナ', 'grape': 'ぶどう'}
 # for 文を用いて、辞書のキーを1つずつ取り出し、繰り返しの中で「 ◯◯は△△という意味です 」と出力させてください
 for fruit_key in fruits:
     print( fruit_key + 'は' + fruits[fruit_key]+ 'という意味です')
+
+
+# 7
+
+x = 10
+
+# while 文を用いて、「変数 x が 0 より大きい」間、繰り返される繰り返し処理を作ってください
+while x > 0:
+    # 変数 x を出力してください
+    print(x)
+    # 変数 x から 1 引いてください
+    x -= 1
