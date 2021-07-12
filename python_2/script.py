@@ -92,3 +92,6 @@ for number in numbers:
     if number == 777:
         print('777が見つかったので処理を終了します')
         break
+
+
+# 9
