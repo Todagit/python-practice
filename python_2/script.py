@@ -135,3 +135,7 @@ for item_name in items:
     total_price = items[item_name] * count
     # 変数 total_price と型変換を用いて、「 支払い金額は◯◯円です 」となるように出力してください
     print('支払い金額は' + str(total_price) + '円です')
+
+
+# 12
+
