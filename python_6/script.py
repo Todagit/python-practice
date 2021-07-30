@@ -43,3 +43,16 @@ def print_hand(hand, name = 'ゲスト'):
 
 # 引数に文字列「 グー 」のみを入れてください
 print_hand('グー')
+
+# 5
+
+def print_hand(hand, name='ゲスト'):
+    print(name + 'は' + hand + 'を出しました')
+
+print('じゃんけんをはじめます')
+
+# input を用いて入力を受け取り、変数 player_name に代入してください
+player_name = input('名前を入力してください：')
+
+# 変数 player_name の値によって関数 print_hand の呼び出し方を変更してください
+print_hand('グー', player_name)
