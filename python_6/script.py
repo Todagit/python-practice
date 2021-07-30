@@ -52,6 +52,8 @@ def print_hand(hand, name='ゲスト'):
 print('じゃんけんをはじめます')
 
 # input を用いて入力を受け取り、変数 player_name に代入してください
+# 入力を受け取るには次のように書きましょう。
+# 変数名 = input('表示したい文章')
 player_name = input('名前を入力してください：')
 
 # 変数 player_name の値によって関数 print_hand の呼び出し方を変更してください
