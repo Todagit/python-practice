@@ -61,3 +61,6 @@ if player_name == '':
     print_hand('グー')
 else:
     print_hand('グー', player_name)
+
+# 6
+
